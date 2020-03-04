@@ -3,6 +3,7 @@
 **Slam相关接口说明**
 
 ### public int StartSlam()
+```csharp
         /// <summary>
         /// Start 3dof or 6dof alg and related sensors
         /// </summary>
@@ -12,7 +13,7 @@
         /// -2019: This API not be supported in this device
         /// </returns>
 		public int StartSlam()
-
+```
 ### public int StopSlam()
         /// <summary>
         /// Stop 3dof or 6dof Alg and related sensors
