@@ -4,15 +4,15 @@
 
 ### public int StartSlam()
 ```csharp
-        /// <summary>
-        /// Start 3dof or 6dof alg and related sensors
-        /// </summary>
-        /// <returns>
-        /// 0:  Send start command failed
-        /// 1:  Send start command success
-        /// -2019: This API not be supported in this device
-        /// </returns>
-		public int StartSlam()
+    /// <summary>
+    /// Start 3dof or 6dof alg and related sensors
+    /// </summary>
+    /// <returns>
+    /// 0:  Send start command failed
+    /// 1:  Send start command success
+    /// -2019: This API not be supported in this device
+    /// </returns>
+	public int StartSlam()
 ```
 ### public int StopSlam()
         /// <summary>
